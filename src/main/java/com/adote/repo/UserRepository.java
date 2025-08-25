@@ -1,0 +1,1 @@
+package com.adote.repo; import org.springframework.data.jpa.repository.*; import com.adote.domain.User; import java.util.*; public interface UserRepository extends JpaRepository<User,String>{ Optional<User> findByEmail(String email);}

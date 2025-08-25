@@ -1,0 +1,1 @@
+package com.adote.repo; import org.springframework.data.jpa.repository.*; import com.adote.domain.*; import java.util.*; public interface ChatRepository extends JpaRepository<Chat,String>{}

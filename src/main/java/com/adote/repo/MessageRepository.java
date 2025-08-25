@@ -1,0 +1,1 @@
+package com.adote.repo; import org.springframework.data.jpa.repository.*; import com.adote.domain.*; public interface MessageRepository extends JpaRepository<Message,String>{}
